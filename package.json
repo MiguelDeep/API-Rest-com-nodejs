@@ -2,11 +2,14 @@
   "name": "api-rest-nodejs",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+  "node": ">=18.18.0 <19.0.0"
+},
   "scripts": {
     "dev": "tsx --watch src/server.ts",
     "knex": "node --no-warnings tsx ./node_modules/.bin/knex",
     "lint": "eslint src --ext .ts --fix",
-    "build":"tsup src --out-dir build",
+    "build": "tsup src --out-dir build",
     "test": "vitest"
   },
   "keywords": [],
@@ -31,6 +34,7 @@
     "dotenv": "^16.4.5",
     "fastify": "^5.0.0",
     "knex": "^3.1.0",
+    "pg": "^8.13.0",
     "sqlite3": "^5.1.7",
     "supertest": "^7.0.0",
     "zod": "^3.23.8"
