@@ -1,2 +1,7 @@
 node_modules
+db/*.db
+.env
+.env.test
 build
+.env.test
+.env.example

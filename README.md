@@ -6,7 +6,7 @@
 
 # RN 
  [X] A transacao pode ser do tipo credito que somara ao valor total , ou debito subtraira;
- [] Deve ser possivel identificarmos o usuario entre as requisicoes;
- [] O usuario so pode visualizar transacoes na qual ele criou.
+ [X] Deve ser possivel identificarmos o usuario entre as requisicoes;
+ [X] O usuario so pode visualizar transacoes na qual ele criou.
 
  # RNF
